@@ -1,5 +1,4 @@
 import numpy as np
-# vishal malo
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from LinearRegressionClass import LinearRegression
