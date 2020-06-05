@@ -3,8 +3,8 @@ import numpy as np
 
 class LinearRegression:
     def __init__(self):
-        self.result = []
-        self.result_w = []
+        self.m = 0
+        self.c = 0
 
     def fit(self, x_train, y_train):
         self.x_train = x_train
